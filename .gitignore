@@ -1,0 +1,13 @@
+#Ignore files
+*.xml
+*.csv
+*.xlsm
+*.xlsx
+*.xls
+*.txt
+.idea/
+.spyproject/
+.vscode/
+__pycache__/
+Outputs/
+
