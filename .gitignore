@@ -5,6 +5,11 @@
 *.xlsx
 *.xls
 *.txt
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.exe
 .idea/
 .spyproject/
 .vscode/

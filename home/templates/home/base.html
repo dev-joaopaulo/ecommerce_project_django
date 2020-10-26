@@ -19,13 +19,22 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 
         <!-- Logo -->
-        <a class="navbar-brand" href="{% url 'store' %}">Ecom</a>
+        <div>
+            <a class="navbar-brand-user site-logo" href="{% url 'home' %}">
+                <img src="{% static 'home/images/logo_square.png' %}" width="50" alt="3D Wizard Logo" loading="lazy" id="logo_symbol">
+                <p class="logo-color spaced-div" id="logo_text"> 3D Wizard</p>
+
+            </a>
+        </div>
+
+        <!-- Index collapsible -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+             <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
+
                 <!-- Blog -->
                <li class="nav-item active">
                     <a class="nav-link" href="#">Blog <span class="sr-only">(current)</span></a>
@@ -39,7 +48,7 @@
 
                 <!-- Login -->
             <div class="form-inline my-2 my-lg-0">
-                <a href="#"class="btn btn-warning">Login</a>
+                <a href="#" class="btn logo-color" style="font-weight: 600; font-size: 1.1em;">Login</a>
 
                 <!-- Cart -->
                 <a href="{% url 'cart' %}">

@@ -1,6 +1,28 @@
+.navbar-brand-user {
+    position: relative;
+    /*background: url(../images/logo.png);*/
+    background-size: contain;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.site-logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo-color{
+    color:#41ad4a;
+}
+
 h1,h2,h3,h4,h5,h6{
     color:hsl(0, 0%, 30%);
 }
+
 
 .box-element{
     box-shadow:hsl(0, 0%, 80%) 0 0 16px;
@@ -96,3 +118,17 @@ h1,h2,h3,h4,h5,h6{
 .hidden{
     display: none!important;
 }
+
+#logo_symbol{
+    float:left;
+}
+
+#logo_text{
+    float:right;
+    font-size: 1.25em;
+    margin-bottom: 0;
+    font-weight: 600;
+    direction: ltr;
+    white-space: pre;
+    }
+
