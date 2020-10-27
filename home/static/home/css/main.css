@@ -1,3 +1,11 @@
+@media only screen and (max-width: 576px) {
+    .carousel-caption {
+        h5 {
+            font-size: 1rem;
+        }
+    }
+}
+
 .navbar-brand-user {
     position: relative;
     /*background: url(../images/logo.png);*/
@@ -19,10 +27,10 @@
     color:#41ad4a;
 }
 
-h1,h2,h3,h4,h5,h6{
+/*h1,h2,h3,h4,h5,h6{
     color:hsl(0, 0%, 30%);
 }
-
+*/
 
 .box-element{
     box-shadow:hsl(0, 0%, 80%) 0 0 16px;
